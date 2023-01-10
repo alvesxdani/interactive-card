@@ -15,6 +15,6 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 //Responsivity
-export const l_device = '1200px';
+export const l_device = '1300px';
 export const m_device = '760px';
 export const s_device = '480px';
