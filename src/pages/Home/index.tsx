@@ -2,6 +2,7 @@ import { ContainerCards, ContainerForm, ContainerPage } from "./style";
 import { Cards } from "../../components/Cards";
 import { BoxForm } from "../../components/BoxForms";
 import { StyledInput } from "../../components/Input";
+import { StyledLabel } from "../../components/Label";
 
 export function Home() {
   return (
@@ -13,7 +14,7 @@ export function Home() {
       <ContainerForm>
         <BoxForm>
           <div className="row">
-            <label>Teste</label>
+            <StyledLabel>Nome completo:</StyledLabel>
             <StyledInput />
           </div>
 

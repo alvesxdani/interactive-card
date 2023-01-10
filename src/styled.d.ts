@@ -7,6 +7,7 @@ declare module "styled-components" {
       primaryColor: string;
       white: tring;
       darkVioletGrey: string;
+      lightGrey: string;
       colorBG: string;
       colorText: string;
     };
@@ -18,6 +19,7 @@ declare module "styled-components" {
       primaryColor: string;
       white: tring;
       darkVioletGrey: string;
+      lightGrey: string;
       colorBG: string;
       colorText: string;
     };
