@@ -20,6 +20,9 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
+
+      <Home />
+
       <SwitchBox>
         <Switch
           checked={theme.title === "dark"}
@@ -27,14 +30,12 @@ const App: React.FC = () => {
           width={40}
           height={20}
           handleDiameter={10}
-          onColor="#333"
+          onColor="#414141"
           offColor="#aaa"
           checkedIcon={false}
           uncheckedIcon={false}
         />
       </SwitchBox>
-
-      <Home />
     </ThemeProvider>
   );
 };

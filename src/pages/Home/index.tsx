@@ -1,4 +1,4 @@
-import { ContainerCards, ContainerForm, ContainerPage } from "./style";
+import { ContainerForm, ContainerPage } from "./style";
 import { Cards } from "../../components/Cards";
 import { BoxForm } from "../../components/BoxForms";
 import { StyledInput } from "../../components/Input";
