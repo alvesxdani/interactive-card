@@ -1,6 +1,6 @@
 export default {
-  name: 'light',
-  
+  title: 'light',
+
   colors: {
     primaryColor: "hsl(278, 68%, 11%)",
     white: "hsl(0, 0%, 100%)",

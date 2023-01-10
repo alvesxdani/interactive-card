@@ -10,6 +10,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    background: ${props => props.theme.colors.colorBG};
+    color: ${props => props.theme.colors.colorText};
     font-family: 'Space Grotesk',serif;
   }
 `

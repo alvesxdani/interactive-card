@@ -1,5 +1,5 @@
 export default {
-  name: 'dark',
+  title: 'dark',
   
   colors: {
     primaryColor: "hsl(278, 68%, 11%)",
