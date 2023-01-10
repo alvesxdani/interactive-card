@@ -1,10 +1,10 @@
-import { Card1, Card2 } from "./style";
+import { Card1, Card2, ContainerCards } from "./style";
 
 export function Cards() {
   return (
-    <div>
+    <ContainerCards>
       <Card1 />
       <Card2 />
-    </div>
+    </ContainerCards>
   )
 }

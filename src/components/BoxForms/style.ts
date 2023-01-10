@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const FormsContent = styled.div`
   width: 500px;
+  margin-left: 10rem;
 
 .row {
   display: flex;

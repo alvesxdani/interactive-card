@@ -1,4 +1,3 @@
-import contentBG from '../../assets/bg-main-desktop.png';
 import styled from "styled-components";
 
 export const ContainerPage = styled.div`

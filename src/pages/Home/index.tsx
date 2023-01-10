@@ -8,9 +8,8 @@ import { StyledButton } from "../../components/Button";
 export function Home() {
   return (
     <ContainerPage>
-      <ContainerCards>
+
         <Cards />
-      </ContainerCards>
 
       <ContainerForm>
         <BoxForm>
