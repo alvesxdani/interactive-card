@@ -12,11 +12,11 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: ${props => props.theme.colors.colorBG};
     color: ${props => props.theme.colors.colorText};
-    font-family: 'Space Grotesk',serif;
+    font-family: '${props => props.theme.fonts.mainFont}', serif;
   }
 `
 
 //Responsivity
-export const l_device = '1300px';
-export const m_device = '760px';
-export const s_device = '480px';
+// l_device = '1300px';
+// m_device = '760px';
+// s_device = '480px';

@@ -9,4 +9,7 @@ export default {
     colorBG: "#1d1d1d",
     colorText: "#fff",
   },
+  fonts: {
+    mainFont: 'Space Grotesk',
+  },
 };

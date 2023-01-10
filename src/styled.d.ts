@@ -5,11 +5,15 @@ declare module "styled-components" {
     title: string;
     colors: {
       primaryColor: string;
-      white: tring;
+      white: string;
       darkVioletGrey: string;
       lightGrey: string;
       colorBG: string;
       colorText: string;
+    },
+
+    fonts: {
+      mainFont: string;
     };
   }
 
@@ -17,11 +21,15 @@ declare module "styled-components" {
     title: string;
     colors: {
       primaryColor: string;
-      white: tring;
+      white: string;
       darkVioletGrey: string;
       lightGrey: string;
       colorBG: string;
       colorText: string;
+    },
+
+    fonts: {
+      mainFont: string;
     };
   }
 }
