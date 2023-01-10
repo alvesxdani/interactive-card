@@ -1,8 +1,8 @@
-import './styles/global.scss';
+import { Home } from './pages/Home';
 
 function App() {
   return (
-    <p>Teste</p>
+    <Home />
   )
 }
 
