@@ -8,9 +8,13 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
-}
 
-body {
-  font-family 'Space Grotesk';
-}
+  body {
+    font-family: 'Space Grotesk',serif;
+  }
 `
+
+//Responsivity
+export const l_device = '1200px';
+export const m_device = '760px';
+export const s_device = '480px';

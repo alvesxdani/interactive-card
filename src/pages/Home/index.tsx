@@ -1,15 +1,14 @@
-import { ContainerBG, ContainerForm, ContainerPage } from "./style";
-import contentBG from '../../assets/bg-main-desktop.png';
+import { ContainerCards, ContainerForm, ContainerPage } from "./style";
+import { Cards } from "../../components/Cards";
 
 export function Home() {
-  return(
+  return (
     <ContainerPage>
-      <ContainerBG />
+      <ContainerCards>
+        <Cards />
+      </ContainerCards>
 
-      <ContainerForm>
-        Teste
-      </ContainerForm>
-
+      <ContainerForm>Teste</ContainerForm>
     </ContainerPage>
-  )
+  );
 }

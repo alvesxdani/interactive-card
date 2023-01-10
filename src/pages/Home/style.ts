@@ -7,9 +7,11 @@ width: 100%;
 height: 100vh;
 `
 
-export const ContainerBG = styled.div`
+export const ContainerCards = styled.div`
 background: url('${contentBG}') no-repeat;
 background-size: auto 100vh;
+display: flex;
+align-items: center;
 width: 480px;
 height: 100vh;
 `
