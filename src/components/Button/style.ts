@@ -9,6 +9,7 @@ export const SubmitButton = styled.button`
   text-transform: uppercase;
   font-weight: bolder;
   margin-top: 1rem;
+  margin-bottom: 2rem;
   padding: 1rem;
   border-radius: 5px;
   cursor: pointer;

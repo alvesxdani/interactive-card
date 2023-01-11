@@ -33,6 +33,24 @@ export const FormsContent = styled.div`
     }
   }
 
+  input {
+    ${(props) =>
+      props.theme.title == "dark" ? "background: #eee1;" : "background: #fff;"}
+    ${(props) =>
+      props.theme.title == "dark"
+        ? `border: 1px solid ${props.theme.colors.colorBG};`
+        : `border: 1px solid ${props.theme.colors.lightGrey};`}
+    font-family: ${props => props.theme.fonts.mainFont};
+    padding: 0.8rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    &:focus,
+    &:hover {
+      outline: none;
+      border: 1px solid ${(props) => props.theme.colors.darkVioletGrey};
+    }
+  }
+
   .cvc {
     justify-content: left;
     input {
