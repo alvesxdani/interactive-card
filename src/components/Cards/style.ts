@@ -35,6 +35,10 @@ export const Card1 = styled.div`
   height: 180px;
   margin: 2rem;
   transform: translateX(50%);
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1rem;
   @media screen and (min-width: ${s_device}) and (max-width: ${l_device}) {
     background-size: ${cardSizeS};
     width: ${cardSizeS};
@@ -42,6 +46,17 @@ export const Card1 = styled.div`
     margin: 0;
     transform: translateX(0);
     transform: translateY(20%);
+  }
+
+  input {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: ${props => props.theme.fonts.mainFont};
+    border: none;
+    background: transparent;
+    font-size: 1.3rem;
+    margin: 0.2rem;
   }
 `;
 

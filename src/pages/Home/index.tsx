@@ -46,6 +46,7 @@ export function Home() {
     handleSubmit,
     formState: { errors },
     setValue,
+    getValues,
     reset,
   } = useForm<Inputs>({
     resolver: yupResolver(schema),
@@ -58,7 +59,12 @@ export function Home() {
 
   return (
     <ContainerPage>
-      <Cards />
+      <Cards children={
+        <div>
+          <input {...register("fullName")} style={{fontSize: '1rem', textAlign: 'left'}}/>
+          <input {...register("numberCard")} disabled/>
+        </div>
+      } />
 
       <ContainerForm>
         <BoxForm>
@@ -100,10 +106,10 @@ export function Home() {
                   /[1-9]/,
                 ]}
                 {...register("numberCard")}
-                onChange={(e: any) =>
+                onChange={(e: any) => 
                   setValue("numberCard", e.target.value, {
                     shouldValidate: true,
-                  })
+                    })
                 }
                 placeholder="0000 0000 0000 0000"
               />

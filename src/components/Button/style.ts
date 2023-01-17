@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SubmitButton = styled.button`
   ${props => props.theme.title === 'dark' ? 'border: 1px solid #1d1d1d;' : 'border: 1px solid #eee;'}
-  ${props => props.theme.title === 'dark' ? `background: ${props.theme.colors.lightGrey};` : `background: ${props.theme.colors.primaryColor};`}
+  ${props => props.theme.title === 'dark' ? `background: ${props.theme.colors.lightGrey};` : `background: #6219b5;`}
   ${props => props.theme.title === 'dark' ? `color: ${props.theme.colors.primaryColor};` : `color: #fff;`}
   /* color: ${props => props.theme.colors.primaryColor}; */
   font-family: '${props => props.theme.fonts.mainFont}', serif;
