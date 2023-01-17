@@ -31,7 +31,7 @@ const schema = yup.object().shape({
     .min(16,"O campo de cartão de crédito deve ter 16 dígitos.")
     .required('O campo "Número do cartão" é obrigatório.'),
   dateExp: yup
-    .string()
+    .date()
     .required('O campo "Data de expiração" é obrigatório.')
     .min(4),
   cvc: yup.number().required('O Campo "CVC" é obrigatório.').min(3,'O campo "CVC" deve conter apenas 3 dígitos.'),
