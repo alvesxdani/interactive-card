@@ -14,7 +14,7 @@ import { StyledToast } from "../../components/Toast";
 interface Inputs {
   fullName: string;
   numberCard: string;
-  dateExp: string;
+  dateExp: number;
   cvc: number;
 }
 
@@ -32,6 +32,7 @@ const schema = yup.object().shape({
     .required('O campo "Número do cartão" é obrigatório.'),
   dateExp: yup
     .date()
+    .typeError('O campo "data" está incorreto.')
     .required('O campo "Data de expiração" é obrigatório.')
     .min(4),
   cvc: yup.number().required('O Campo "CVC" é obrigatório.').min(3,'O campo "CVC" deve conter apenas 3 dígitos.'),
