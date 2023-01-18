@@ -40,6 +40,7 @@ export const FormsContent = styled.div`
       props.theme.title == "dark"
         ? `border: 1px solid ${props.theme.colors.colorBG};`
         : `border: 1px solid ${props.theme.colors.lightGrey};`}
+      color: ${props => props.theme.colors.colorText};
     font-family: ${props => props.theme.fonts.mainFont};
     padding: 0.8rem;
     border-radius: 5px;

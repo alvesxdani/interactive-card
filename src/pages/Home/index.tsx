@@ -1,7 +1,6 @@
 import { ContainerForm, ContainerPage } from "./style";
 import { Cards } from "../../components/Cards";
 import { BoxForm } from "../../components/BoxForms";
-import { StyledInput } from "../../components/Input";
 import { StyledLabel } from "../../components/Label";
 import { StyledButton } from "../../components/Button";
 import { useForm } from "react-hook-form";
@@ -14,7 +13,7 @@ import { StyledToast } from "../../components/Toast";
 interface Inputs {
   fullName: string;
   numberCard: string;
-  dateExp: number;
+  dateExp: string;
   cvc: number;
 }
 
